@@ -1,0 +1,33 @@
+.calculator {
+
+  &__control {
+    width: 100px;
+
+    &_item {
+      margin: auto;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      transition: background-color 100ms ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: hsla(0, 0%, 100%, 0.12);
+      }
+
+      &_equal {
+        color: #2b589a;
+        background-color: hsla(0, 0%, 100%, 1);
+        transition: box-shadow, background-color 100ms ease;
+
+        &:hover {
+          background-color: hsla(0, 0%, 100%, .8);
+          box-shadow: 2px 2px 8px hsl(216, 56%, 39%);
+        }
+      }
+    }
+  }
+}

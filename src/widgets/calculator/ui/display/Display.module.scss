@@ -1,0 +1,30 @@
+.calculator {
+
+  &__display {
+    overflow: hidden;
+  }
+
+  &__computed_history {
+    height: 117px;
+    margin-bottom: 28px;
+    margin-right: -3.35rem;
+    padding-right: 1.75rem;
+    overflow-y: scroll;
+    font-size: 24px;
+    font-family: 'Geometria-Medium';
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  &__computed_result {
+    height: 92px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.35);
+    font-size: 56px;
+    font-family: 'Geometria-Bold';
+    margin-bottom: 37px;
+    text-align: right;
+  }
+}

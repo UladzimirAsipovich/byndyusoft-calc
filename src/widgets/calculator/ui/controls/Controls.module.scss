@@ -1,0 +1,15 @@
+.calculator {
+  &__controls {
+    font-family: 'Geometria-Medium';
+    font-size: 36px;
+    user-select: none;
+  }
+
+  &__control_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+  }
+}
