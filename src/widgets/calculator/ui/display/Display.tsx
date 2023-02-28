@@ -22,6 +22,7 @@ const Display: React.FC<DisplayProps> = memo(({ history, result }) => {
                 : 56
             }px`,
           }}
+          data-testid='RESULT'
         >
           {result !== null ? formatterNumber.format(result) : ''}
         </span>

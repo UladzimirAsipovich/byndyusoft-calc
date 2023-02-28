@@ -19,6 +19,7 @@ const Control: React.FC<ControlProps> = ({ controlItem, controlHandler }) => {
             ? `. Гор. клавиша - ${controlItem.keyboardAlias}`
             : ''
         }`}
+        data-testid={controlItem.action}
       >
         <span>{controlItem.value}</span>
       </div>
